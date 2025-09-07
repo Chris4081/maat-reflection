@@ -1,0 +1,64 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# Virtualenv / Conda
+.env
+.venv
+env/
+venv/
+ENV/
+env-*/
+
+# Jupyter / Notebook
+.ipynb_checkpoints
+
+# -----------------------
+# macOS / System
+# -----------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# -----------------------
+# Logs / Cache
+# -----------------------
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.sqlite3
+
+# -----------------------
+# textgen / llama.cpp spezifisch
+# -----------------------
+# Modelle (sollen nicht ins Repo!)
+*.gguf
+*.bin
+*.pt
+*.safetensors
+
+# Extension Test Outputs
+user_data/extensions/maat_reflection/__pycache__/
+user_data/extensions/maat_reflection/*.yaml
+user_data/extensions/maat_reflection/*.json
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
