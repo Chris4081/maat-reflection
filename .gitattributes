@@ -1,0 +1,21 @@
+# Standard: Textdateien mit LF (Unix-Style) behandeln
+* text=auto eol=lf
+
+# Python-Dateien immer LF
+*.py text eol=lf
+
+# Markdown und Doku
+*.md text eol=lf
+*.txt text eol=lf
+
+# JSON/YAML Konfigurationsdateien
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Shell-Skripte
+*.sh text eol=lf
+
+# Windows Batch-Skripte behalten CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
