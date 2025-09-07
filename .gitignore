@@ -1,64 +1,52 @@
-# -----------------------
-# Python
-# -----------------------
+# ---- Python Standard ----
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-*.egg
-*.manifest
-*.spec
+*$py.class
 
-# Virtualenv / Conda
+# Virtual Environments
 .env
 .venv
 env/
 venv/
-ENV/
-env-*/
 
-# Jupyter / Notebook
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage reports
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+
+# Jupyter Notebooks
 .ipynb_checkpoints
 
-# -----------------------
-# macOS / System
-# -----------------------
+# ---- System ----
 .DS_Store
-.AppleDouble
-.LSOverride
-._*
-.Spotlight-V100
-.Trashes
+Thumbs.db
 
-# -----------------------
-# Logs / Cache
-# -----------------------
+# ---- Logs ----
 *.log
-*.tmp
-*.bak
-*.swp
-*.swo
-*.sqlite3
 
-# -----------------------
-# textgen / llama.cpp spezifisch
-# -----------------------
-# Modelle (sollen nicht ins Repo!)
-*.gguf
-*.bin
-*.pt
-*.safetensors
-
-# Extension Test Outputs
-user_data/extensions/maat_reflection/__pycache__/
+# ---- maat_reflection specific ----
+# Lokale State-Dateien (sollen nicht ins Repo)
 user_data/extensions/maat_reflection/*.yaml
-user_data/extensions/maat_reflection/*.json
+user_data/extensions/maat_reflection/*.yml
 
-# -----------------------
-# IDE / Editor
-# -----------------------
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
+# Cache oder temporäre Daten
+user_data/extensions/maat_reflection/cache/
+user_data/extensions/maat_reflection/tmp/
