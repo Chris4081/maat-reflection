@@ -10,16 +10,21 @@ Maat Reflection is an extension for the text-generation-webui, adding self-refle
 ✨ Features
 	•	Self-Reflection before answering
 The model creates an internal draft, evaluates it against the 5 Maat principles
+
 (🌿 Harmony, ⚖️ Balance, 🎨 Creativity, 🌐 Connectedness, 🕊️ Respect),
+
 and silently improves it if needed before producing the final response.
 	•	Heuristic-based triggering
+ 
 Reflection is only performed when certain conditions are met:
 	•	Question marks / wh-words
 	•	Multiple sentences or words
 	•	Longer text inputs
 	•	Numbers, code, or uncertainty expressions
+ 
 → Avoids unnecessary “thinking” on short or trivial prompts.
 	•	Force Regex
+ 
 Custom regex rules can be defined to force thinking (e.g., ? or /think).
 	•	Multiple Presets
 	•	💡 Questions only
@@ -31,7 +36,9 @@ Custom regex rules can be defined to force thinking (e.g., ? or /think).
 	•	Simple Mode → minimal controls, pre-configured defaults.
 	•	Expert Mode → full control over heuristics, triggers, and scoring thresholds.
 	•	Multi-language support 🌍
+
 The UI, reflection guide, and heuristics are available in:
+
 	•	🇩🇪 German
 	•	🇬🇧 English
 	•	🇪🇸 Spanish
@@ -39,6 +46,7 @@ The UI, reflection guide, and heuristics are available in:
 	•	🇵🇹 Portuguese
 	•	🇮🇹 Italian
 	•	🇨🇿 Czech
+ 
 	•	Refresh & Stats Tab
 	•	Preview of active reflection rules
 	•	Statistics on reflections, repairs, and scores
@@ -56,6 +64,6 @@ The UI, reflection guide, and heuristics are available in:
 
 💡 Tips
 	•	For first testing, select the preset 💡 Always think.
-→ This ensures the model reflects on every prompt, so you can clearly see the effect.
+		This ensures the model reflects on every prompt, so you can clearly see the effect.
 	•	Afterwards, experiment with Questions only, Light, or Strict to fine-tune the balance between speed and quality.
-	•	Use the Refresh & Stats tab to monitor reflection activity and improvements.
+ 	•	Use the Refresh & Stats tab to monitor reflection activity and improvements.
