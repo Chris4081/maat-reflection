@@ -26,6 +26,7 @@ Reflection is only performed when certain conditions are met:
 	•	Force Regex
  
 Custom regex rules can be defined to force thinking (e.g., ? or /think).
+
 	•	Multiple Presets
 	•	💡 Questions only
 	•	💡 Always think (ignores heuristics)
@@ -47,14 +48,7 @@ The UI, reflection guide, and heuristics are available in:
 	•	🇮🇹 Italian
 	•	🇨🇿 Czech
  
-	•	Refresh & Stats Tab
 	•	Preview of active reflection rules
-	•	Statistics on reflections, repairs, and scores
-	•	Specials Tab (Formulas)
-	•	Built-in Maat formulas (Maat Value, PLP, World-Maat, ToE-Maat)
-	•	Add your own formulas via Markdown
-	•	Option to include formulas inside the reflection guide
-
 
 🚀 Installation
 	1.	Copy the folder maat_reflection into text-generation-webui/user_data/extensions/
