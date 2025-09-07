@@ -23,14 +23,12 @@ Extension for the **text-generation-webui** that adds **self-reflection, heurist
 
 
 
-##🛠️ Usage
+## 🛠️ Usage
 	•	Open the WebUI and go to the 🧭 Maat Reflection tab.
 	•	Adjust:
 	•	Minimum Score and Max Repairs
 	•	Heuristics (questions, multiple sentences, long text, numbers, uncertainty…)
-	•	Presets to quickly switch modes
-	•	Use the Refresh & Stats tab to preview reflection rules and view stats.
-	•	Use the Specials tab to attach or edit formulas.
+	•	Presets to quickly switch mode.
 
 
 
